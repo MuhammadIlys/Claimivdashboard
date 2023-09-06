@@ -1,0 +1,114 @@
+.lead {
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+
+.container {
+   margin: 150px auto;
+   /* max-width: 960px; */
+}
+
+.calendar-popup{
+   position: absolute !important;
+   bottom: 234px !important;
+   left: 260px !important;
+   background-color: rgb(235, 209, 209);
+   
+}
+
+
+
+.hbContainer {
+   /* max-width: 400px; */
+   margin: auto;
+}
+
+.left {
+   float: left;
+}
+
+.right {
+   float: right;
+}
+
+.last {
+   padding-right: 55px !important;
+}
+
+.mydate {
+   /* margin-top: 35px !important; */
+}
+
+.center {
+   text-align: center;
+
+}
+
+.calendarList1 {
+   list-style: none;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   grid-template-rows: repeat(1, 40px);
+   align-items: center;
+   justify-items: center;
+   grid-gap: 8px;
+   font-size: 14px;
+   color: #707070;
+}
+
+.calendarList2 {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   grid-template-rows: repeat(6, 40px);
+   align-items: center;
+   justify-items: center;
+   grid-gap: 8px;
+   font-size: 14px;
+   color: #707070;
+}
+
+.calendarYearMonth {
+   margin-top: 24px;
+   padding-left: 25px;
+   color: black;
+   font-weight: 500;
+   font-size: 28px;
+}
+
+.calendarYearMonth p {
+   display: inline-block;
+   vertical-align: middle;
+
+}
+
+.calBtn {
+   user-select: none;
+   cursor: pointer;
+   /* background: #4F46E5; */
+   margin: 8px 0;
+   padding: 8px 12px;
+   border-radius: 12px;
+   font-size: 14px;
+   line-height: 22px;
+   color: black;
+   /* width: 33%; */
+   /* border: 1px solid #4F46E5; */
+}
+
+@media only screen and (max-width: 770px) {
+.calendar-popup {
+      position: absolute !important;
+      bottom: 213px !important;
+      left: 155px !important;
+      background-color: rgb(235, 209, 209);
+
+   }
+}

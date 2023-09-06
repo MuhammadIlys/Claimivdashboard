@@ -1,0 +1,37 @@
+
+
+@media only screen and (max-width: 770px) {
+    .sub-title{
+        margin-top: 15px;
+    }
+
+    button{
+        padding-left: 0px !important;
+    }
+
+    #divider-row{
+        margin: 0px !important;
+        color: #D4DBE1;
+    }
+
+    .horizontal-line{
+        background-color: #D4DBE1;
+    }
+
+    .account-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-body{
+        text-align: center;
+    }
+
+    .myform{
+        margin-left: 0px;
+    }
+
+    .mybutton{
+        margin-left: 10px;
+    }
+}

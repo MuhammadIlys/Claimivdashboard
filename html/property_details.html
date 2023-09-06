@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+
+<!-- =========================================================
+* Sneat - Bootstrap 5 HTML Admin Template - Pro | v1.0.0
+==============================================================
+
+* Product Page: https://themeselection.com/products/sneat-bootstrap-html-admin-template/
+* Created by: ThemeSelection
+* License: You must have a valid license purchased in order to legally use the theme for your project.
+* Copyright ThemeSelection (https://themeselection.com)
+
+=========================================================
+ -->
+<!-- beautify ignore:start -->
+<html
+  lang="en"
+  class="light-style layout-menu-fixed"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="../assets/"
+  data-template="vertical-menu-template-free">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Property details</title>
+
+    <meta name="description" content />
+
+    <!-- Favicon -->
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="../assets/vendor/css/core.css"
+      class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css"
+      class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
+    <link rel="stylesheet" href="../assets/css/property_details.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet"
+      href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <link rel="stylesheet"
+      href="../assets/vendor/libs/apex-charts/apex-charts.css" />
+
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="../assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="../assets/js/config.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+        <!-- Menu -->
+
+        <aside id="layout-menu"
+          class="layout-menu menu-vertical menu bg-menu-theme">
+          <div
+            class="app-brand demo d-flex justify-content-center align-content-center">
+            <a href="#" class="app-brand-link">
+              <img src="../assets/img/logo_black.png" alt id="logo_img">
+              <!-- <span class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</span> -->
+            </a>
+
+            <a href="javascript:void(0);"
+              class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+              <i class="bx bx-chevron-left bx-sm align-middle"></i>
+            </a>
+          </div>
+
+          <div class="menu-inner-shadow"></div>
+
+          <div class="mt-4 ">
+            <h6 style="font-size: 14px;">Menu</h3>
+          </div>
+
+          <ul class="menu-inner py-1 text-center">
+            <!-- Dashboard -->
+            <li class="menu-item">
+              <a href="Dashboard.html" class="menu-link active">
+                <i class="fa-regular fa-chart-bar menu-icon"></i>
+                <div data-i18n="Analytics">Dashboard</div>
+              </a>
+            </li>
+
+            <li class="menu-item ">
+              <a href="properties.html" class="menu-link">
+                <i class="fa-regular fa-building menu-icon"></i>
+                <div data-i18n="Analytics">Properties</div>
+              </a>
+            </li>
+
+            <li class="menu-item ">
+              <a href="upcoming-events.html" class="menu-link">
+                <i class="fa-regular fa-calendar menu-icon"></i>
+                <div data-i18n="Analytics">Events</div>
+              </a>
+            </li>
+
+            <li class="menu-item ">
+              <a href="chat.html" class="menu-link">
+                <i class="fa-regular fa-message menu-icon"></i>
+                <div data-i18n="Analytics">Messages</div>
+              </a>
+            </li>
+
+            <div class="mt-4 ">
+              <h6 style="font-size: 14px;">Others</h3>
+            </div>
+
+            <li class="menu-item ">
+              <a href="#" class="menu-link">
+                <i class="fa-solid fa-gear menu-icon"></i>
+                <div data-i18n="Analytics">Settings</div>
+              </a>
+            </li>
+
+            <li class="menu-item ">
+              <a href="login.html" class="menu-link">
+                <i class="fa-solid fa-arrow-right-from-bracket menu-icon"></i>
+                <div data-i18n="Analytics">Logout</div>
+              </a>
+            </li>
+
+          </ul>
+
+          <!-- Layouts -->
+
+          <!-- <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                <div data-i18n="Authentications">Authentications</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Basic">Login</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="auth-register-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Basic">Register</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="auth-forgot-password-basic.html" class="menu-link" target="_blank">
+                    <div data-i18n="Basic">Forgot Password</div>
+                  </a>
+                </li>
+              </ul>
+            </li> -->
+          <!-- </ul> -->
+        </aside>
+        <!-- / Menu -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Navbar -->
+          <nav
+            class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme mt-4"
+            id="layout-navbar">
+            <div
+              class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-4"
+                href="javascript:void(0)">
+                <img src="../assets/img/aside.png" alt="">
+              </a>
+            </div>
+
+            <div class="navbar-nav-right d-flex align-items-center"
+              id="navbar-collapse">
+              <!-- Search -->
+              <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center" id="nav-item">
+                  <i class="bx bx-search fs-4 lh-0"></i>
+                  <input type="text" class="form-control border-0 shadow-none"
+                    placeholder="Search something here"
+                    aria-label="Search..." />
+                </div>
+              </div>
+              <!-- /Search -->
+
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <!-- Place this tag where you want the button to render. -->
+                <li class="nav-item lh-1 me-3">
+                  <a href="#">
+                    <span class="notification-badge">
+                      <i class="fa fa-bell"></i>
+                      <span class="badge">3</span>
+                    </span>
+                  </a>
+                </li>
+
+                <!-- User -->
+                <li class="nav-item navbar-dropdown dropdown-user dropdown">
+
+                  <a
+                    class="nav-link dropdown-toggle hide-arrow d-flex flex-row align-items-center"
+                    href="javascript:void(0);"
+                    data-bs-toggle="dropdown">
+                    <div class="avatar avatar-online">
+                      <img src="../assets/img/avatars/1.png" alt
+                        class="w-px-40 h-auto rounded-2" />
+                    </div>
+                    <div class="d-flex flex-column " style="margin-left: 13px;">
+                      <span class="nav-name">Marvin McKinnei</span>
+                      <span class="nav-email">marvin@gmail.com</span>
+                    </div>
+                  </a>
+
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <div class="d-flex">
+                          <div class="flex-shrink-0 me-3">
+                            <div class="avatar avatar-online">
+                              <img src="../assets/img/avatars/1.png" alt
+                                class="w-px-40 h-auto rounded-circle" />
+                            </div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <span class="fw-semibold d-block">John Doe</span>
+                            <small class="text-muted">Admin</small>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="bx bx-user me-2"></i>
+                        <span class="align-middle">My Profile</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="bx bx-cog me-2"></i>
+                        <span class="align-middle">Settings</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <span class="d-flex align-items-center align-middle">
+                          <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
+                          <span class="flex-grow-1 align-middle">Billing</span>
+                          
+                           
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="login.html">
+                        <i class="bx bx-power-off me-2"></i>
+                        <span class="align-middle">Log Out</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- <a href="" class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="d-flex flex-column  " >
+                            <span class="nav-name">Marvin McKinnei</span>
+                            <span>marvin@gmail.com</span>
+                          </div>
+                          </a> -->
+
+                <!--/ User -->
+              </ul>
+            </div>
+          </nav>
+
+          <!-- / Navbar -->
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container mt-4">
+              <div class="row">
+
+                <div class="card pt-2 pb-2">
+                  <div class="card-body">
+
+                    <div class="btn-group bg-grey overflow-auto">
+                      <a href="#" class="btn bg-green active"
+                        aria-current="page">Details</a>
+                      <a href="#" class="btn ">Photos</a>
+                      <a href="#" class="btn ">Documents</a>
+                      <a href="#" class="btn ">Calendar</a>
+                      <a href="#" class="btn ">Work</a>
+                    </div>
+
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-8 mtop-5">
+
+                          <p class="card-title-1 mb-4 d-none d-sm-block">Recent Weather Impact</p>
+
+                          <div
+                            class="col-md-7 d-flex flex-row align-items-center mt-5 pe-5"
+                            id="weather-property">
+
+                            <div class="containerr w-25">
+                              <div class="vertical-align">
+                                <h4 class="title-property-details">Sun</h4>
+                                <img src="../assets/img/Typhoon.png" alt="Image"
+                                  class="image">
+                                <h2 class="number">30</h2>
+                              </div>
+                            </div>
+
+                            <div class="containerr w-25">
+                              <div class="vertical-align">
+                                <h4 class="title-property-details">Mon</h4>
+                                <img src="../assets/img/Sunny Rain.png"
+                                  alt="Image" class="image">
+                                <h2 class="number">30</h2>
+                              </div>
+                            </div>
+
+                            <div class="containerr w-25">
+                              <div class="vertical-align">
+                                <h4 class="title-property-details">Tue</h4>
+                                <img src="../assets/img/Thunder.png" alt="Image"
+                                  class="image">
+                                <h2 class="number">30</h2>
+                              </div>
+                            </div>
+
+                            <div class="containerr w-25">
+                              <div class="vertical-align">
+                                <h4 class="title-property-details">Wed</h4>
+                                <img src="../assets/img/Rain.png" alt="Image"
+                                  class="image">
+                                <h2 class="number">30</h2>
+                              </div>
+                            </div>
+
+                            <div class="containerr w-25">
+                              <div class="vertical-align">
+                                <h4 class="title-property-details">Thu</h4>
+                                <img src="../assets/img/Thunder.png" alt="Image"
+                                  class="image">
+                                <h2 class="number">30</h2>
+                              </div>
+                            </div>
+
+                            <div class="containerr w-25">
+                              <div class="vertical-align">
+                                <h4 class="title-property-details">Fri</h4>
+                                <img src="../assets/img/Rain.png" alt="Image"
+                                  class="image">
+                                <h2 class="number">30</h2>
+                              </div>
+                            </div>
+
+                            <div class="containerr w-25">
+                              <div class="vertical-align">
+                                <h4 class="title-property-details">Sat</h4>
+                                <img src="../assets/img/Thunder.png" alt="Image"
+                                  class="image">
+                                <h2 class="number">30</h2>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <div class="row m-0 mt-5" style="gap:0px !important">
+
+                            <div class="col-md-1  card-avatar-image">
+                              <img src="../assets/img/Rectangle8.png"
+                                class=" h-100 my-auto " alt>
+                            </div>
+                            <div
+                              class="col-md-7 col d-flex flex-column justify-content-start  my-auto">
+                              <b class="avatar-name">Property Name</b>
+                              <span class="mycard-subtitle"><img src="../assets/img/map.png" alt> ul. Zarzecze 58,
+                                Kraków 30-134</span>
+                            </div>
+                            <div
+                              class="col-md-3 col p-2 d-flex flex-column align-items-end">
+                              <span class="avatar-name"><b>$17,000K</b></span>
+                              <span class="avatar-email">Insurance Value</span>
+                            </div>
+
+                          </div>
+
+                          <div class=" mt-5">
+                            <!-- PLEASE PUT YOUR MAP API HERE -->
+                            <img src="../assets/img/map2.png" class="img-fluid"
+                              alt>
+                          </div>
+
+                        </div>
+
+                        <div class="col-md-4 mt-5">
+
+                          <!-- Contractor button -->
+                          <div class="row d-flex flex-row">
+                            <div
+                              class="col-md-2 col-2 bg-green rounded-3 text-white d-flex align-items-center justify-content-center p-3 border rounded-1">
+                              <i class="fa fa-paw "></i>
+                            </div>
+                            <div class="col-md-10 col-10">
+                              <p class="card-title-1 mb-0"> Contractor</p>
+                              <p class="mb-0"> Select the contractor</p>
+
+                            </div>
+                          </div>
+                          <!-- Contractor button Ended-->
+
+                          <div class=" mt-4">
+
+                            <!-- Users Started-->
+                            
+                            <div
+                              class="row d-flex flex-row my-3 bg-grey2 rounded-2 pt-2 pb-2  rounded-3">
+                              <div
+                                class="col-md-2 col-2  text-white d-flex align-items-center ">
+                                <span><img src="../assets/img/Rectangle7.png"
+                                    alt></span>
+                              </div>
+                              <div class="col-md-10 my-auto col">
+                                <p class="card-title-1 mb-0 ms-2"> Ester Howard</p>
+                                <p class="mb-0 ms-2">ester@gmail.com</p>
+
+                              </div>
+                            </div>
+                            <div
+                              class="row d-flex flex-row my-3 rounded-2 pt-2 pb-2  rounded-custom">
+                              <div
+                                class="col-md-2 col-2  text-white d-flex align-items-center ">
+                                <span><img src="../assets/img/Rectangle7.png"
+                                    alt></span>
+                              </div>
+                              <div class="col-md-10 my-auto col">
+                                <p class="card-title-1 mb-0 ms-2"> Ester Howard</p>
+                                <p class="mb-0 ms-2">ester@gmail.com</p>
+
+                              </div>
+                            </div><div
+                              class="row d-flex flex-row my-3 rounded-2 pt-2 pb-2  rounded-custom">
+                              <div
+                                class="col-md-2 col-2  text-white d-flex align-items-center ">
+                                <span><img src="../assets/img/Rectangle7.png"
+                                    alt></span>
+                              </div>
+                              <div class="col-md-10 my-auto col">
+                                <p class="card-title-1 mb-0 ms-2"> Ester Howard</p>
+                                <p class="mb-0 ms-2">ester@gmail.com</p>
+
+                              </div>
+                            </div>
+                            <!-- Users Ended  -->
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
+
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    <!-- / Layout wrapper -->
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="../assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+    <script src="../assets/vendor/libs/apex-charts/apexcharts.js"></script>
+
+    <!-- Main JS -->
+    <script src="../assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="../assets/js/dashboards-analytics.js"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
